@@ -10,11 +10,9 @@ public class Demo {
 		 WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		
+		System.out.println("Hello world");
 		driver.get("https://www.flipkart.com/");
-		
-	
-		
+		System.out.println("Hi...");
 	}
 
 }
